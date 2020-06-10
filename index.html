@@ -1,0 +1,47 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>bestslime dot ml</title>
+    </head>
+    <body>
+      <a href="https://twitter.com/Jack5O79/status/1270821789548138501">
+        <h1>bestslime dot ml</h1>
+      </a>
+        <iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+            <video src="slime.mp4" loop autoplay id="video"></iframe>
+        <script>
+            var video = document.getElementById("video");
+            video.addEventListener("click", function() {
+                if (video.paused || video.ended) {
+                    video.play();
+                }
+            });
+        </script>
+        <style>
+          html {
+            height: 100%;
+            text-align: center;
+            font-family: sans-serif;
+            background: linear-gradient(to top right, black, white);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+          }
+
+          video {
+            border-radius: 50px;
+          }
+
+          a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: transparent;
+            position: fixed;
+            top: 0;
+            left: 0;
+          }
+        </style>
+    </body>
+</html>
